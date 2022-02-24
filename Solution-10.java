@@ -27,6 +27,9 @@ class Result {
     //Step-3:- Sort the ArrayList
     //Step-4:- Convert into Strings
     //Step-5:- Return the new String List
+        
+    //THIS IS AN INEFFICIENT SOLUTION AS ALL SOLUTIONS ARE ACCEPTED WITH THE TEST CASES BUT TIME LIMIT EXCEEDS AND THUS, IT IS VERY SLOW,
+    //OPTIMIZATION IN SOLUTION-10-2.JAVA
     
     ArrayList<BigInteger> bigList = new ArrayList<BigInteger>() ;
         for(int i = 0; i<unsorted.size(); i++)

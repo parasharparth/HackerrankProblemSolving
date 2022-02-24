@@ -28,14 +28,14 @@ class Result {
     Collections.sort(arr);
     
     //STEP-2 Finding the maximum sum
-    int max_sum = 0;
+    long max_sum = 0;
     for(int i = 1; i<5; i++)
     {
         max_sum = max_sum + arr.get(i);
     }
     
     //STEP-3 Finding the minimum sum
-    int min_sum=0;
+    long min_sum=0;
     for(int i = 0; i<4; i++)
     {
         min_sum = min_sum + arr.get(i);
